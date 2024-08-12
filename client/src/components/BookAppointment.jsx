@@ -35,7 +35,13 @@ const BookAppointment = ({ setModalOpen, ele }) => {
               Authorization: `Bearer ${localStorage.getItem("token")}`,
             },
           }
-        ),
+        ).catch((error) => {
+          if(error.response?.status === 403) {
+            toast.error(error.response?.data);
+          } else {
+            throw error;
+          }
+        }),
         {
           success: "Appointment booked successfully",
           error: "Unable to book appointment",

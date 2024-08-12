@@ -15,13 +15,7 @@ const AboutUs = () => {
           </div>
           <div className="hero-content">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Quibusdam tenetur doloremque molestias repellat minus asperiores
-              in aperiam dolor, quaerat praesentium. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Voluptatibus, repudiandae! Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Provident
-              quibusdam doloremque ex? Officia atque ab dolore? Tempore totam
-              non ea!
+            we are committed to making healthcare more accessible and convenient for everyone. Our platform connects you with experienced doctors, allowing you to book appointments quickly and easily. We believe in empowering patients with the tools to take charge of their health. With a focus on quality care and user-friendly service, we strive to make your healthcare journey seamless and stress-free.
             </p>
           </div>
         </div>

@@ -35,6 +35,7 @@ const Contact = () => {
             placeholder="Enter your name"
             value={formDetails.name}
             onChange={inputChange}
+            required
           />
           <input
             type="email"
@@ -43,6 +44,7 @@ const Contact = () => {
             placeholder="Enter your email"
             value={formDetails.email}
             onChange={inputChange}
+            required
           />
           <textarea
             type="text"
@@ -53,6 +55,7 @@ const Contact = () => {
             onChange={inputChange}
             rows="8"
             cols="12"
+            required
           ></textarea>
 
           <button
